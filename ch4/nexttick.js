@@ -12,7 +12,7 @@ setImmediate(function(){
 	console.log("Immediate Timer 2 Executed");
 });
 
-process.nextTick(function(){
+process.nextTick(function(){ //nextTick schedules work to be run on the next cycle of the event loop
 	console.log("Next Tick 1 Executed");
 });
 
